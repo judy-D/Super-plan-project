@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dasboard to plan a project with login and live notification using ReactJS and Firebase. 
 
 ## Available Scripts
 
