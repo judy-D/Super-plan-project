@@ -1,0 +1,57 @@
+body {
+    min-height: 100%;
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100% );
+    background-repeat: no-repeat;
+}
+form {
+    padding: 20px;
+    margin-top: 60px;
+    border-radius: 2%;
+    /* background-color: white; */
+}
+
+/* @media only screen and (max-width:600px) {
+    nav .brand-logo {
+        position: absolute;
+        color: #fff;
+        display: inline-block;
+        font-size: 1.1rem;
+        padding: 0;
+    }
+    nav .brand-logo {
+    
+        position: absolute;
+        color: #fff;
+        display: inline-block;
+        font-size: 1.1rem;
+        padding: 0;
+    
+    }
+    nav .brand-logo {
+        left: 10px;
+    }
+} */
+
+@media only screen and (max-width:785px){
+    nav .brand-logo {
+        font-size: 1rem;
+        left: 10%;
+
+    }
+
+}
+
+form button, form h5 {
+    margin: 20px 0;
+}
+/* .input-field > label { */
+    /* color: whitesmoke; */
+/* } */
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-color: #2AF598;
+    box-shadow: none;
+}
